@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Characters
+permalink: /characters/
 ---
 <style>
     body {

@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Campaign Hub
+next_session:
+  date: "Saturday, October 13, 2025"
+  time: "7:00 PM - 10:00 PM"
+  location: "Gaming and Streaming Discord"
 ---
 
 <style>
@@ -135,7 +139,7 @@ title: Campaign Hub
 
 <div class="container">
     <header class="campaign-header">
-        <h1>⚔️ The Campaign Chronicles ⚔️</h1>
+        <h1>⚔️ Scars of the Last War ⚔️</h1>
         <p class="subtitle">A D&D Adventure Awaits</p>
     </header>
 
@@ -153,9 +157,9 @@ title: Campaign Hub
 
         <div class="session-info">
             <h3>📅 Next Session</h3>
-            <p><strong>Date:</strong> TBD</p>
-            <p><strong>Time:</strong> TBD</p>
-            <p><strong>Location:</strong> TBD</p>
+            <p><strong>Date:</strong> {{ page.next_session.date }}</p>
+            <p><strong>Time:</strong> {{ page.next_session.time }}</p>
+            <p><strong>Location:</strong> {{ page.next_session.location }}</p>
         </div>
     </div>
 

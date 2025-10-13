@@ -158,7 +158,7 @@ next_session:
     </div>
 
     <div class="nav-grid">
-        <a href="characters" class="nav-card">
+        <a href="{{ site.baseurl }}/characters" class="nav-card">
             <div class="icon">👥</div>
             <h3>Characters</h3>
             <p>Meet the heroes of our tale and track their progress</p>

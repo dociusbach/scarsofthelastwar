@@ -47,6 +47,16 @@ h1, h2, h3, h4, h5, h6 {
   transition: transform 0.2s ease-in-out;
 }
 
+.player-card {
+  width: 240px;
+  border-radius: 1rem;
+  background: #2a2a2a;
+  padding: 1rem;
+  color: #eee;
+  text-align: center;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+}
+
 .player-info {
   padding: 1rem;
   color: #f0f0f0;

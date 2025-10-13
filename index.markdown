@@ -146,13 +146,7 @@ next_session:
     <div class="welcome-section">
         <h2>Welcome, Adventurers!</h2>
         <p>
-            Greetings, brave heroes! This is your central hub for all information regarding our ongoing campaign. 
-            Here you'll find everything you need to prepare for your next session, track your progress, 
-            and dive deeper into the world we're creating together.
-        </p>
-        <p>
-            Whether you're checking character details, reviewing session notes, or exploring the lore of our world, 
-            you'll find it all within these pages.
+            {{ site.data.campaign.greeting }}
         </p>
 
         <div class="session-info">

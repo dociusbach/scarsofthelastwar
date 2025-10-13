@@ -160,7 +160,7 @@ permalink: {{ site.baseurl }}/characters/
 {% for character in site.data.campaign.party %}
         <div class="character-card">
             <div class="character-header">
-                 <img src="{{ site.baseurl }}/assets/image/{{ character.player_code }}.png" alt="{{ character.name }}">
+                 <img src="{{ site.baseurl }}/assets/image/{{ character.player_code }}.png" alt="{{ character.name }}"  class="player-avatar">
                 <h2 class="character-name">{{ character.name }}</h2>
                 <p class="character-class">{{ character.race }} {{ character.class }}</p>
             </div>

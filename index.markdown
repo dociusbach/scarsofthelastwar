@@ -139,8 +139,8 @@ next_session:
 
 <div class="container">
     <header class="campaign-header">
-        <h1>⚔️ Scars of the Last War ⚔️</h1>
-        <p class="subtitle">A D&D Adventure Awaits</p>
+        <h1>⚔️ {{ site.data.campaign.campaign_info.name }} ⚔️</h1>
+        <p class="subtitle">{{ site.data.campaign.campaign_info.subtitle }}</p>
     </header>
 
     <div class="welcome-section">
@@ -157,9 +157,9 @@ next_session:
 
         <div class="session-info">
             <h3>📅 Next Session</h3>
-            <p><strong>Date:</strong> {{ page.next_session.date }}</p>
-            <p><strong>Time:</strong> {{ page.next_session.time }}</p>
-            <p><strong>Location:</strong> {{ page.next_session.location }}</p>
+            <p><strong>Date:</strong> {{ site.data.campaign.next_session.date }}</p>
+            <p><strong>Time:</strong> {{ site.data.campaign.next_session.time }}</p>
+            <p><strong>Location:</strong> {{ site.data.campaign.next_session.location }}</p>
         </div>
     </div>
 

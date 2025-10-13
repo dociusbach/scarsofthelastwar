@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Characters
-permalink: /characters/
+permalink: {{ site.baseurl }}/characters/
 ---
 <style>
     body {

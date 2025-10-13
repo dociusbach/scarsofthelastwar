@@ -1,0 +1,40 @@
+/* Global Styles for D&D Campaign Site */
+
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #e8e8e8;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+/* Global link styling - highly visible */
+a {
+    color: #f4d03f;  /* Bright gold */
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #ffd700;  /* Even brighter on hover */
+    text-decoration: none;
+}
+
+a:visited {
+    color: #e6c965;  /* Slightly muted gold for visited links */
+}
+
+/* Page titles */
+h1, h2, h3, h4, h5, h6 {
+    color: #d4af37;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Specific override for navigation cards to keep them styled */
+.nav-card {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-card:hover {
+    color: inherit;
+}

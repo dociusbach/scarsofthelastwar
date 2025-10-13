@@ -1,0 +1,34 @@
+next_session:
+  date: "Monday, October 13, 2025"
+  time: "7:00 PM - 10:00 PM"
+  location: "Gaming and Streaming Discord"
+
+campaign_info:
+  name: "Scars of the Last War"
+  subtitle: "A D&D Adventure Awaits"
+  dm_name: "Bach"
+  greeting: |
+    "Greetings, brave heroes! This is your central hub for all information regarding our ongoing campaign. 
+      Here you'll find everything you need to prepare for your next session, track your progress, 
+      and dive deeper into the world we're creating together."
+
+party:
+  - name: "Liora Mal'kyn"
+    class: "Barbarian"
+    player: "Sara"
+  - name: "Jobin"
+    class: "Cleric"
+    player: "Michael"
+  - name: "Sir John"
+    class: "Warlock"
+    player: "Riley"
+  - name: "Nyxa Noctharis"
+    class: "Rogue"
+    player: "Hannah"
+  - name: "Maximus Grillbeef"
+    class: "Warlock"
+    player: "Brandon"
+  - name: "Alan Akalzoth"
+    class: "Fighter"
+    player: "Cole"
+

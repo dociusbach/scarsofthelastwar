@@ -32,6 +32,15 @@ theme: minima
 plugins:
   - jekyll-feed
 
+picture:
+  source: assets/images
+  output: assets/resized
+  presets:
+    player_card:
+      widths: [300]
+      formats: [jpeg]
+      sizes: '(max-width: 600px) 100vw, 300px'
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

@@ -158,37 +158,37 @@ next_session:
     </div>
 
     <div class="nav-grid">
-        <a href="{{ site.baseurl }}/characters" class="nav-card">
+        <a href="/characters" class="nav-card">
             <div class="icon">👥</div>
             <h3>Characters</h3>
             <p>Meet the heroes of our tale and track their progress</p>
         </a>
 
-        <a href="{{ site.baseurl }}/sessions" class="nav-card">
+        <a href="/sessions" class="nav-card">
             <div class="icon">📖</div>
             <h3>Session Notes</h3>
             <p>Review past adventures and recap what happened</p>
         </a>
 
-        <a href="{{ site.baseurl }}/world" class="nav-card">
+        <a href="/world" class="nav-card">
             <div class="icon">🗺️</div>
             <h3>World & Lore</h3>
             <p>Explore locations, NPCs, and the history of our world</p>
         </a>
 
-        <a href="{{ site.baseurl }}/rules" class="nav-card">
+        <a href="/rules" class="nav-card">
             <div class="icon">📜</div>
             <h3>House Rules</h3>
             <p>Campaign-specific rules and guidelines</p>
         </a>
 
-        <a href="{{ site.baseurl }}/resources" class="nav-card">
+        <a href="/resources" class="nav-card">
             <div class="icon">🎲</div>
             <h3>Resources</h3>
             <p>Useful tools, character sheets, and references</p>
         </a>
 
-        <a href="{{ site.baseurl }}/gallery" class="nav-card">
+        <a href="/gallery" class="nav-card">
             <div class="icon">🖼️</div>
             <h3>Gallery</h3>
             <p>Maps, art, and visual inspiration</p>

@@ -162,19 +162,13 @@ permalink: {{ site.baseurl }}/characters/
             <div class="character-header">
                  <img src="/assets/image/{{ character.player_code }}.png" alt="{{ character.name }}">
                 <h2 class="character-name">{{ character.name }}</h2>
-                <p class="character-class">{{ character.class }}</p>
+                <p class="character-class">{{ character.race }} {{ character.class }}</p>
             </div>
             <div class="character-info">
                 <div class="info-row">
                     <span class="info-label">Player:</span>
                     <span class="info-value">{{ character.player }}</span>
                 </div>
-{% if character.race %}
-                <div class="info-row">
-                    <span class="info-label">Race:</span>
-                    <span class="info-value">{{ character.race }}</span>
-                </div>
-{% endif %}
 {% if character.level %}
                 <div class="info-row">
                     <span class="info-label">Level:</span>

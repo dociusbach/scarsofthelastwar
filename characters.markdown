@@ -81,12 +81,77 @@ permalink: {{ site.baseurl }}/characters/
         padding: 25px;
         transition: all 0.3s ease;
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        position: relative;
     }
 
     .character-card:hover {
         transform: translateY(-5px);
         border-color: #d4af37;
         box-shadow: 0 8px 20px rgba(212, 175, 55, 0.3);
+    }
+
+    .character-card.dead {
+        filter: grayscale(100%);
+        opacity: 0.7;
+        border-color: #4a0000;
+    }
+
+    .character-card.dead:hover {
+        border-color: #8b0000;
+        transform: translateY(-2px);
+    }
+
+    .character-portrait {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        border: 2px solid #8b4513;
+    }
+
+    .character-card.dead .character-portrait {
+        filter: grayscale(100%) brightness(0.5);
+    }
+
+        .portrait-container {
+        position: relative;
+        margin-bottom: 15px;
+    }
+
+    .dead-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        pointer-events: none;
+    }
+
+    .dead-x {
+        font-size: 120px;
+        color: rgba(139, 0, 0, 0.7);
+        font-weight: bold;
+        text-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
+        transform: rotate(-15deg);
+        line-height: 1;
+    }
+
+    .dead-badge {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: rgba(139, 0, 0, 0.9);
+        color: #fff;
+        padding: 5px 12px;
+        border-radius: 5px;
+        font-size: 0.9em;
+        font-weight: bold;
+        border: 2px solid #8b0000;
+        text-transform: uppercase;
     }
 
     .character-header {
@@ -99,6 +164,11 @@ permalink: {{ site.baseurl }}/characters/
         font-size: 1.8em;
         color: #d4af37;
         margin-bottom: 5px;
+    }
+
+    .character-card.dead .character-name {
+        color: #8b0000;
+        text-decoration: line-through;
     }
 
     .character-class {
@@ -158,7 +228,20 @@ permalink: {{ site.baseurl }}/characters/
     </div>
     <div class="characters-grid">
 {% for character in site.data.campaign.party %}
-        <div class="character-card">
+        <div class="character-card{% if character.dead %} dead{% endif %}">
+{% if character.dead %}
+            <div class="dead-badge">💀 Deceased</div>
+{% endif %}
+{% if character.portrait %}
+            <div class="portrait-container">
+                <img src="{{ site.baseurl }}/{{ character.portrait }}" alt="{{ character.name }}" class="character-portrait">
+{% if character.dead %}
+                <div class="dead-overlay">
+                    <div class="dead-x">✖</div>
+                </div>
+{% endif %}
+            </div>
+{% endif %}
             <div class="character-header">
                  <img src="{{ site.baseurl }}/assets/image/{{ character.player_code }}.png" alt="{{ character.name }}"  class="player-avatar">
                 <h2 class="character-name">{{ character.name }}</h2>

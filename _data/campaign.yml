@@ -62,6 +62,13 @@ party:
     level: "5"
     player_code: "147760935"
     dead: false
+  - name: "Lucien Constantine"
+    class: "Paladin"
+    race: "Elf"
+    player: "Garrett"
+    level: "5"
+    player_code: "153968495"
+    dead: True
 
 maps: 
   - title: "Caldrithar"

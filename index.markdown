@@ -164,7 +164,7 @@ next_session:
             <p>Meet the heroes of our tale and track their progress</p>
         </a>
 
-        <a href="/sessions" class="nav-card">
+        <a href="{{ site.baseurl }}/sessions" class="nav-card">
             <div class="icon">📖</div>
             <h3>Session Notes</h3>
             <p>Review past adventures and recap what happened</p>

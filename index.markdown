@@ -170,9 +170,9 @@ next_session:
             <p>Review past adventures and recap what happened</p>
         </a>
 
-        <a href="/world" class="nav-card">
+        <a href="{{ site.baseurl }}/maps" class="nav-card">
             <div class="icon">🗺️</div>
-            <h3>World & Lore</h3>
+            <h3>Discovered Maps</h3>
             <p>Explore locations, NPCs, and the history of our world</p>
         </a>
 

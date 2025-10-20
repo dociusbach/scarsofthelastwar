@@ -56,3 +56,16 @@ party:
     level: "5"
     player_code: "147760935"
 
+maps: 
+  - title: "Caldrithar"
+    image: "assets/maps/caldrithar_start.png"
+    description: "The known world and surrounding regions"
+  - title: "Timber Haven"
+    image: "assets/maps/timber_haven.png"
+    description: "Where our adventure began"
+  - title: "Palefall"
+    image: "assets/maps/palefall.png"
+    description: "A quant temple town that secrets lurk from below"
+  - title: "Norke"
+    image: "assets/maps/norke.png"
+    description: "The bustling metropolis"

@@ -261,7 +261,7 @@ permalink: {{ site.baseurl }}/characters/
 {% if character.id %}
                 <div class="info-row">
                     <span class="info-label">Character Sheet:</span>
-                    <a href="https://dndbeyond.com/character/{{character.player_code}}>{{ character.player_code }}</span>
+                    <a href="https://dndbeyond.com/character/{{ character.player_code }}">{{ character.player_code }}</a>
                 </div>
 {% endif %}
 {% if character.background %}

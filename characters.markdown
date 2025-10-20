@@ -258,10 +258,10 @@ permalink: {{ site.baseurl }}/characters/
                     <span class="info-value">{{ character.level }}</span>
                 </div>
 {% endif %}
-{% if character.id %}
+{% if character.player_code %}
                 <div class="info-row">
                     <span class="info-label">Character Sheet:</span>
-                    <a href="https://dndbeyond.com/character/{{ character.player_code }}">{{ character.player_code }}</a>
+                    <a href="https://dndbeyond.com/character/{{ character.player_code }}">https://dndbeyond.com/character/{{ character.player_code }}</a>
                 </div>
 {% endif %}
 {% if character.background %}

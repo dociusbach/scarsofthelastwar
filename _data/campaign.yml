@@ -19,29 +19,34 @@ party:
     player: "Sara"
     level: "5"
     player_code: "147761847"
+    dead: false
   - name: "Jobin"
     class: "Cleric"
     race: "Human"
     player: "Michael"
     level: "5"
     player_code: "147765304"
+    dead: false
   - name: "Sir John"
     class: "Warlock"
     race: "Human"
     player: "Riley"
     level: "5"
     player_code: "147624873"
+    dead: false
   - name: "Nyxa Noctharis"
     class: "Rogue"
     player: "Hannah"
     race: "Tabaxi"
     level: "5"
     player_code: "147761033"
+    dead: false
   - name: "Maximus Grillbeef"
     class: "Warlock"
     race: "Gnome" 
     player: "Brandon"
     level: "5"
+    dead: false
     player_code: "147759861"
   - name: "Benedict Elric"
     class: "Wizard"
@@ -49,12 +54,14 @@ party:
     player: "Garrett"
     level: "5"
     player_code: "148487711"
+    dead: True
   - name: "Alan Akalzoth"
     class: "Fighter"
     race: "Goliath"
     player: "Cole"
     level: "5"
     player_code: "147760935"
+    dead: false
 
 maps: 
   - title: "Caldrithar"

@@ -68,7 +68,7 @@ party:
     player: "Garrett"
     level: "5"
     player_code: "153968495"
-    dead: True
+    dead: false
 
 maps: 
   - title: "Caldrithar"

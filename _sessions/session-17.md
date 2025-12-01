@@ -2,7 +2,7 @@
 layout: session
 title: "The First Spark — Founders of the Gatewatch"
 session_number: 17
-date: 2025-10-20
+date: 2025-11-10
 location: "Old Norke"
 dm: "Josh"
 ---

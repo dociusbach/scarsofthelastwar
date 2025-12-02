@@ -1,7 +1,7 @@
 ---
 layout: session
 title: "The Day Emerald Rest Returned"
-session_number: 17
+session_number: 18
 date: 2025-11-17
 location: "Old Norke"
 dm: "Josh"
